@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #718093;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+h1, h2, h3, h4, h5{
+    color: #F1592D;
+}
+/* header style start */
+.container{
+    background-color: #003E54;
+    width: 70%;
+    margin: 0px auto;
+}
+
+header .bio-img{
+    width: 80px;
+    border: 3px solid white;
+    /* border-radius: 50%; */
+    margin: 20px;
+    float: left;
+}
+header .bio-text{
+    float: left;
+}
+header .bio-contact{
+    float: right;
+}
+header .bio-text{
+    padding: 40px 0px 0px 10px;
+}
+.bio-contact{
+    padding: 40px 20px;
+}
+.bio-contact a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.bio-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+hr{
+    width :100%;
+    margin: 20px auto;
+    border: 3px solid #F1592D;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.clear-div{
+    clear: both;
+}
+/*header style end*/
+
+/* main style start */
+
+#personal-section{
+    margin: 20px;
+}
+.div-left{
+    width: 30%;
+    float: left;
+}
+.div-right p{
+    line-height: 25px;
+}
+.div-right{
+    width: 70%;
+    float: right;
+    margin-bottom: 30px;
+}
+.common-hr{
+    border:1px solid #F1592D;
+    border-bottom: none;
+    margin: 0px auto ;
+}
+/*personal section end*/
+
+
+#work-section{
+    margin: 20px;
+}
+#skill-section{
+    margin: 20px;
+}
+#education-section{
+    margin: 20px;
+}
+#honors-section{
+    margin: 20px;
+}
+
+.div-center{
+    width: 35%;
+    float: left;
+    margin-bottom: 30px;
+}
+.div-eright{
+    width: 35%;
+    float: left;
+}
+
+.bottom{
+    background-color: #F1592D;
+    color: white;
+    text-align: center;
+    padding:10px;
+    
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    
+}
+.bottom p{
+    color: white;
+    margin: 20px;
+    
+}
+
+/* main style end */
